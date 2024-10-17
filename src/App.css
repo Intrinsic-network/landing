@@ -1,38 +1,75 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  min-height: 100vh;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding-top: 80px;
+  margin-left: 98px;
+}
+
+.nav-button {
+  background-color: #2151a8;
+  border: none;
+}
+
+.launch-button {
+  border: none;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  padding: 12px 24px;
+  width: 169px;
+  height: 54px;
+  background: #df7100;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+
+  margin-top: 37px;
+  margin-bottom: 37px;
+}
+
+.landing-text {
+  text-align: left;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.links {
+  width: 42px;
+  height: 24px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
   color: white;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+.ml-25 {
+  margin-left: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.body-wrapper {
+  margin-left: 98px;
+}
+
+@media (max-width: 575.98px) {
+  .body-wrapper,
+  .App-header {
+    margin-left: 24px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .App-header {
+    padding-top: 34px;
+  }
+
+  .body-wrapper {
+    margin-top: 2rem !important;
   }
 }
