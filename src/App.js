@@ -37,7 +37,7 @@ function App() {
             </button>
             <div className="d-flex mt-3">
               <a
-                className="links mx-2"
+                className="links mr-2"
                 href="docs.intrinsic.finance" // Replace with your actual GitHub URL
                 target="_blank"
                 rel="noopener noreferrer"

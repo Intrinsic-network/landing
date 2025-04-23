@@ -37,9 +37,9 @@
 }
 
 .links {
-  width: 42px;
+  width: fit-content;
   height: 24px;
-
+  text-align: left;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -49,6 +49,10 @@
 
   color: white;
   text-decoration: none;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
 }
 
 .ml-25 {
