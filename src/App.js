@@ -4,7 +4,7 @@ import navLogo from "./assets/nav-logo.svg";
 import githubIcon from "./assets/github-icon.svg";
 
 import xTwitterIcon from "./assets/x-icon.svg";
-import discordIcon from "./assets/discord-icon.svg";
+// import discordIcon from "./assets/discord-icon.svg";
 
 function App() {
   const handleLaunchNow = () => {
