@@ -25,10 +25,9 @@ function App() {
       <div className="body-wrapper d-flex flex-fill">
         <div className="d-flex flex-column text-center">
           <div className="flex-fill align-content-center mb-4">
-            <p className="landing-text mt-auto">
-              Trade assets and earn by providing liquidity on the most secure
-              decentralized financial system.
-            </p>
+            <h1 className="landing-text mt-auto">
+              Trade crypto assets, swap tokens and earn by providing liquidity on a secure DeFi AMM decentralized financial system
+            </h1>
             <button
               className=" btn btn-primary d-flex align-items-center launch-button mt-4"
               onClick={handleLaunchNow}
